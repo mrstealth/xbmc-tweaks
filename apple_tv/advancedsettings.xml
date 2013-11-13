@@ -1,0 +1,15 @@
+<advancedsettings>
+  <network>
+    <curlclienttimeout>20</curlclienttimeout>  <!-- Timeout in seconds for libcurl (http/ftp) connections -->
+    <curllowspeedtime>20</curllowspeedtime>    <!-- Time in seconds for libcurl to consider a connection lowspeed -->
+    <alwaysforcebuffer>1</alwaysforcebuffer>
+    <cachemembuffersize>0</cachemembuffersize>
+    <readbufferfactor>4.0</readbufferfactor>
+  </network>
+  <audio>
+    <defaultplayer>dvdplayer</defaultplayer>
+  </audio>
+</advancedsettings>
+
+<!-- http://wiki.xbmc.org/?title=advancedsettings.xml -->
+<!-- http://wiki.xbmc.org/index.php?title=HOW-TO:Modify_the_cache -->
